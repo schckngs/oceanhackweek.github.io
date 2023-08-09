@@ -10,7 +10,7 @@ sys.path.append(os.path.abspath("./_ext"))
 
 # -- Project information -----------------------------------------------------
 
-project = "OceanHackWeek"
+project = "Pacific Moorings Page"
 author = "OceanHackWeek contributors"
 # -- Sphinx config ---------------------------------------------------
 extensions = [
@@ -18,7 +18,7 @@ extensions = [
     # "myst_parser",
     "ablog",
     "sphinx_design",
-    "ohw_team",
+    #"ohw_team",
 ]
 
 # sphinx_panels config
@@ -58,30 +58,16 @@ html_theme = "pydata_sphinx_theme"
 html_theme_options = {
     "search_bar_text": "Search this site...",
     # "google_analytics_id": "",
-    "navbar_end": [
-        # "search-field.html",
-        "navbar-icon-links"
-    ],
     "icon_links": [
         {
             "name": "GitHub",
-            "url": "https://github.com/oceanhackweek/",
+            "url": "https://github.com/oceanhackweek/ohw23_proj_fancymoorings",
             "icon": "fab fa-github-square",
         },
         {
             "name": "Discussions",
-            "url": "https://github.com/orgs/oceanhackweek/discussions",
+            "url": "https://github.com/orgs/oceanhackweek/ohw23_proj_fancymoorings/issues",
             "icon": "fas fa-comments",
-        },
-        {
-            "name": "Twitter",
-            "url": "https://twitter.com/oceanhackweek",
-            "icon": "fab fa-twitter-square",
-        },
-        {
-            "name": "YouTube",
-            "url": "https://www.youtube.com/@OceanHackWeek/playlists",
-            "icon": "fab fa-youtube-square",
         },
         {
             "name": "Email",
@@ -100,7 +86,7 @@ html_context = {
     "github_version": "source",
 }
 
-html_title = "OceanHackWeek"
+html_title = "Pacific Moorings Page"
 # html_favicon = "_static/magnifying.ico"
 html_static_path = ["_static"]
 html_sidebars = {
@@ -125,7 +111,7 @@ html_sidebars = {
 }
 
 blog_baseurl = ""
-blog_title = "OceanHackWeek"
+blog_title = "Pacific Moorings Page"
 blog_path = "posts"
 fontawesome_included = True
 blog_post_pattern = "posts/**/*"
